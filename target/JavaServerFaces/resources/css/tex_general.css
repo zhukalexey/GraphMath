@@ -1,0 +1,176 @@
+/*
+Rank Your Pins - General CSS
+version 1.4 (01-05-2013)
+*/
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body {
+	color: #333;
+	background:#ededed url("bg_brokenwhite.jpg.xhtml?ln=images") repeat;
+	font: 15px/1.5 'Droid Sans', 'Liberation Sans', Arial, FreeSans, sans-serif;
+	margin:0;
+}
+.header {padding-top:12px;}
+.logo {width:100%; height:150px; background:url("logo.png.xhtml?ln=images") no-repeat right center;}
+
+.menu {width:100%; margin-top:12px;margin-bottom:1em;background:rgba(210,210,210,0.4); box-shadow:inset 0 1px 3px rgba(100,100,100,0.5);padding:8px;border-bottom:1px solid #fff;}
+.menu ul {padding:0;}
+.menu li {display:inline-block;vertical-align: top;list-style-type:none;padding:5px;}
+.menu li a,
+.footer a {padding:7px 12px; text-decoration:none;color:#333; border-radius:3px;}
+.menu li a:hover {background:#eee;}
+.menu li a.active {color:#fff;background:#b00;}
+
+.align_right {float:right;}
+.align_center {text-align:center;}
+
+h1,h2,h3 {color:#333; font-weight:normal; margin:0; padding:0; font-family: 'Droid Sans', cursive;}
+h1 {font-size:34px;}
+h2 {font-size:28px;}
+h3 {font-size:22px;}
+h4 {font-size:18px;}
+
+p {margin:1em 0;}
+
+.block {background:#fff; box-shadow:1px 1px 4px #888; border-radius:6px; margin-bottom:1em;}
+
+table.contest {width:100%;}
+table.contest td {text-align:center;}
+table.contest a {display:block;}
+
+.contest a img {border:2px solid #bbb;}
+.contest a img:hover {border-color:#c2040D;}
+.contest a:active img {border:2px solid #8f8;}
+
+.footer {width:100%; background:rgba(200,200,200,0.5); box-shadow:inset 0 1px 2px #999;padding:24px;text-align:center;}
+.footer a:hover {color:#c00;}
+.copyright {color:#888; margin-top:16px; font-size:12px;}
+
+.promo_block,.detail_block {
+	position:relative; 
+	padding:10px 12px;
+}
+.detail_block { margin-bottom:2em;}
+.promo_block input[type=button],
+.detail_block input[type=button] {width:100%;}
+.promo_block .label {line-height:24px; height:24px; overflow:hidden;}
+.promo_block .label,
+.detail_block .label { clear:both; color:#888;}
+.promo_block h4 {line-height:26px; height:52px; overflow:hidden;}
+.promo_block h4,
+.detail_block h4 {color:#c2040D;}
+.promo_block .promo_image_wrapper {height:150px; overflow:hidden;margin:4px 0;}
+.detail_block .promo_image_wrapper {margin:0 0;}
+.promo_image {width:49.3%; display:inline-block;}
+.promo_image img {border:2px solid #bbb; }
+.promo_block p {line-height:24px; height:96px; overflow:hidden;}
+.promo_block p,
+.detail_block p {margin:0.3em 0 0.6em;}
+.time_to_go {font-size:0.8em;}
+.time_to_go table {width:100%;}
+.time_to_go td{ padding:0;}
+.time_to_go .bar_back {
+	background: #ededed;
+	box-shadow:inset 0 1px 2px #aaa;
+    border-radius: 6px;
+    bottom: 43px;
+    height: 13px;
+    left: 10px;
+    margin-top: 5px;
+    padding: 0;
+    width: 100%;
+}
+.time_to_go .bar_front {
+	background: #E8B221;
+	border:2px groove #E8B221;
+    border-radius: 5px;
+    height: 13px;
+}
+
+input[type=button].bigglossy {
+	background: #BB0000;
+	color:#fff;
+	padding:10px 5px;
+	margin:5px 0;
+	border-radius:5px;
+	border:0px solid #700;
+	box-shadow:0 1px 2px rgba(0,0,0,0.5);
+	-webkit-transition:text-shadow .2s linear, letter-spacing .7s ease;
+	transition: text-shadow .2s linear, letter-spacing .7s ease;
+	letter-spacing: 1px;
+	font-size:1.1em;
+	text-transform: capitalize;
+	background: rgb(198,42,42); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(198,42,42,1) 0%, rgba(198,42,42,1) 50%, rgba(187,0,0,1) 51%, rgba(136,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(198,42,42,1)), color-stop(50%,rgba(198,42,42,1)), color-stop(51%,rgba(187,0,0,1)), color-stop(100%,rgba(136,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(198,42,42,1) 0%,rgba(198,42,42,1) 50%,rgba(187,0,0,1) 51%,rgba(136,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(198,42,42,1) 0%,rgba(198,42,42,1) 50%,rgba(187,0,0,1) 51%,rgba(136,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(198,42,42,1) 0%,rgba(198,42,42,1) 50%,rgba(187,0,0,1) 51%,rgba(136,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(198,42,42,1) 0%,rgba(198,42,42,1) 50%,rgba(187,0,0,1) 51%,rgba(136,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c62a2a', endColorstr='#880000',GradientType=0 ); /* IE6-9 */
+	background-position: 0 ;
+}
+input[type=button].bigglossy:hover {
+	cursor:pointer;
+	background-position: 0 1px;
+	text-shadow:0 0 8px rgba(255,255,255,0.8);
+	letter-spacing: 3px;
+	}
+	
+input[type=button].bigglossy:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 0px #800;
+	background:rgba(187,0,0,1);
+	border-color:#700 #d88 #fff #a22;
+	margin:6px 0 4px;
+	cursor:pointer;
+}
+.link_button {
+	text-decoration:none;
+	font-size:12px;
+	color:#777;
+	background:#eee;
+	border-radius:4px;
+	padding:0.5em 1em;
+}
+.link_button:before {
+	content:'« ';
+}
+.link_button:hover {
+	background:rgba(255,255,255,0.4);
+	box-shadow:0 1px 3px #aaa;
+	color:#333;
+}
+.block.lists {
+	box-shadow:none;
+	background:none;
+	margin-top: 1em;
+}
+#lists table {
+margin:0.2em 0 2em;
+background:#fff;
+border-radius:5px;
+border: 16px solid #fff;
+box-shadow:0 1px 3px rgba(0,0,0,0.6);
+}
+#lists table th {
+border-bottom:1px solid #ccc;
+text-transform:uppercase;
+font-size:0.7em;
+padding:5px 10px;
+}
+#lists table td {
+border-right:1px solid #ddd;
+font-size:0.9em;
+}
+#lists table tr:nth-child(even) td {
+background:#f2f2f2;
+}
+#lists table tr:hover td{
+background:#e8f2ff;
+}
+#lists table td a {
+display:block;
+padding:10px 5px;
+margin:-5px -10px;
+}

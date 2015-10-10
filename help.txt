@@ -1,0 +1,16 @@
+Приложение написано на языке Java с использованием технологии JSF.
+Для сборки и работы приложения необходимы:
+а) Сервер Glassfish 4.0
+b) Для сборки архетип Maven и активное интернет подкючение.
+с) Wolfram Mathematica 7.0
+
+1. Установить IDE Netbeans 7.3.1
+2. Открыть приложение в IDE Netbeans. Среда разработки потребует установки требуемых модулей (glassfish 4.0 и Maven).
+3. Установите проект как главный.
+4. Запустите сервер glassfish.
+5. В файле GraphMath\src\main\resources\by\bsu\graphmath\application.properties установить следущие свойства:
+jLinkDir - путь к JLink
+wolframKernelPath - путь к ядру Wolfram Mathematica
+5. Shift+F11(Clean and Build)
+6. F6 (Run) 
+7. В браузере приложение доступно по адресу: localhost:8080/GraphMath (<server_host>:<server_port>/GraphMath)

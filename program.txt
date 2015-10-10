@@ -1,0 +1,950 @@
+system = {
+    Subscript[x1, 1, 3] - Subscript[x1, 2, 1] == -2,
+   Subscript[x1, 2, 1] + Subscript[x1, 2, 6] == 9,
+   Subscript[x1, 3, 4] + Subscript[x1, 3, 6] - Subscript[x1, 1, 3] == 
+    9,
+   Subscript[x1, 4, 6] - Subscript[x1, 3, 4] - Subscript[x1, 5, 
+     4] == -2,
+   Subscript[x1, 5, 4] - Subscript[x1, 6, 5] == -2,
+   Subscript[x1, 6, 5] - Subscript[x1, 2, 6] - Subscript[x1, 3, 6] - 
+     Subscript[x1, 4, 6] == -12,
+   
+   Subscript[x2, 1, 3] + Subscript[x2, 1, 4] + Subscript[x2, 1, 5] + 
+     Subscript[x2, 1, 6] == 15,
+   Subscript[x2, 2, 6] - Subscript[x2, 3, 2] == 0,
+   Subscript[x2, 3, 2] + Subscript[x2, 3, 4] - Subscript[x2, 1, 3] == 
+    4,
+   Subscript[x2, 4, 6] - Subscript[x2, 1, 4] - Subscript[x2, 3, 
+     4] == -7,
+   -Subscript[x2, 1, 5] == -2,
+   -Subscript[x2, 1, 6] - Subscript[x2, 2, 6] - Subscript[x2, 4, 
+     6] == -10,
+   
+   Subscript[x3, 1, 3] + Subscript[x3, 1, 5] - Subscript[x3, 2, 1] == 
+    11,
+   Subscript[x3, 2, 1] + Subscript[x3, 2, 6] - Subscript[x3, 5, 2] == 
+    0,
+   -Subscript[x3, 1, 3] == -4,
+   Subscript[x3, 4, 6] - Subscript[x3, 5, 4] == 5,
+   Subscript[x3, 5, 2] + Subscript[x3, 5, 4] - Subscript[x3, 1, 5] - 
+     Subscript[x3, 6, 5] == -4,
+   Subscript[x3, 6, 5] - Subscript[x3, 2, 6] - Subscript[x3, 4, 
+     6] == -8,
+   
+   3 Subscript[x1, 1, 3] + 3 Subscript[x2, 1, 3] + 
+     4 Subscript[x3, 1, 3] + 4 Subscript[x2, 1, 4] + 
+     9 Subscript[x2, 1, 5] + 3 Subscript[x3, 1, 5] + 
+     6 Subscript[x1, 2, 1] + Subscript[x3, 2, 1] + 
+     5 Subscript[x1, 2, 6] + 5 Subscript[x2, 2, 6] + 
+     6 Subscript[x3, 2, 6] + 4 Subscript[x2, 3, 2] + 
+     2 Subscript[x1, 3, 4] + 5 Subscript[x2, 3, 4] + 
+     4 Subscript[x1, 4, 6] + 10 Subscript[x2, 4, 6] + 
+     2 Subscript[x3, 4, 6] + 2 Subscript[x3, 5, 2] + 
+     9 Subscript[x1, 5, 4] + 5 Subscript[x3, 5, 4] + 
+     7 Subscript[x1, 6, 5] + 8 Subscript[x3, 6, 5] == 948,
+   
+   5 Subscript[x1, 1, 3] + 6 Subscript[x2, 1, 3] + Subscript[x3, 1, 
+     3] + 6 Subscript[x2, 1, 4] + 6 Subscript[x2, 1, 5] + 
+     10 Subscript[x3, 1, 5] + 3 Subscript[x2, 1, 6] + 
+     5 Subscript[x1, 2, 1] + 3 Subscript[x3, 2, 1] + 
+     4 Subscript[x1, 2, 6] + 5 Subscript[x2, 2, 6] + 
+     9 Subscript[x3, 2, 6] + 5 Subscript[x2, 3, 2] + 
+     8 Subscript[x1, 3, 4] + 10 Subscript[x2, 3, 4] + Subscript[x1, 3,
+      6] + 3 Subscript[x1, 4, 6] + 5 Subscript[x2, 4, 6] + 
+     9 Subscript[x3, 4, 6] + 7 Subscript[x3, 5, 2] + 
+     7 Subscript[x1, 5, 4] + 2 Subscript[x3, 5, 4] + 
+     5 Subscript[x1, 6, 5] + 5 Subscript[x3, 6, 5] == 631,
+   
+    Subscript[x2, 1, 3] + 2 Subscript[x3, 1, 3] + 
+     7 Subscript[x2, 1, 4] + 7 Subscript[x2, 1, 5] + 
+     8 Subscript[x3, 1, 5] + 6 Subscript[x2, 1, 6] + 
+     8 Subscript[x1, 2, 1] + 10 Subscript[x3, 2, 1] + 
+     5 Subscript[x1, 2, 6] + 10 Subscript[x2, 2, 6] + 
+     4 Subscript[x3, 2, 6] + 5 Subscript[x2, 3, 2] + 
+     7 Subscript[x1, 3, 4] + 3 Subscript[x2, 3, 4] + Subscript[x1, 3, 
+     6] + 7 Subscript[x1, 4, 6] + Subscript[x2, 4, 6] + Subscript[x3, 
+     4, 6] + 9 Subscript[x3, 5, 2] + 5 Subscript[x1, 5, 4] + 
+     7 Subscript[x3, 5, 4] + 2 Subscript[x1, 6, 5] + 
+     2 Subscript[x3, 6, 5] == 590,
+   
+   Subscript[x1, 1, 3] + Subscript[x2, 1, 3] + Subscript[x3, 1, 3] == 
+    10,
+   Subscript[x1, 5, 4] + Subscript[x3, 5, 4] == 7
+   };
+system1 = {
+    Subscript[x1, 1, 3] - Subscript[x1, 2, 1] == 0,
+   Subscript[x1, 2, 1] + Subscript[x1, 2, 6] == 0,
+   Subscript[x1, 3, 4] + Subscript[x1, 3, 6] - Subscript[x1, 1, 3] == 
+    0,
+   Subscript[x1, 4, 6] - Subscript[x1, 3, 4] - Subscript[x1, 5, 4] == 
+    0,
+   Subscript[x1, 5, 4] - Subscript[x1, 6, 5] == 0,
+   Subscript[x1, 6, 5] - Subscript[x1, 2, 6] - Subscript[x1, 3, 6] - 
+     Subscript[x1, 4, 6] == 0};
+n = 5;
+t = {3, 1, 5, 4, 6, 2};
+p = {2, 0 , 1, 6, 6, 2};
+d = {1, 0, 1, -1, 1, 1 };
+system1a = system1;
+system1a[[3]] = system1a[[3]] /. {Subscript[x1, 3, 4] -> 1};
+system1a[[4]] = system1a[[4]] /. {Subscript[x1, 3, 4] -> 1};
+system1a[[3]] = system1a[[3]] /. {Subscript[x1, 3, 6] -> 0};
+system1a[[6]] = system1a[[6]] /. {Subscript[x1, 3, 6] -> 0};
+system1a[[5]] = system1a[[5]] /. {Subscript[x1, 5, 4] -> 0};
+system1a[[4]] = system1a[[4]] /. {Subscript[x1, 5, 4] -> 0};
+Subscript[\[Delta]1, 3, 
+  4] = {Subscript[x1, 3, 4] -> 1, Subscript[x1, 3, 6] -> 0, 
+   Subscript[x1, 5, 4] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system1a[[t[[i]]]], Subscript[x1, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system1a[[t[[i]]]], Subscript[x1, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system1a[[p[[t[[i]]]]]] = system1a[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]1, 3, 4] = 
+    Join[Subscript[\[Delta]1, 3, 4], \[Delta]];
+   }];
+system1b = system1;
+system1b[[3]] = system1b[[3]] /. {Subscript[x1, 3, 4] -> 0};
+system1b[[4]] = system1b[[4]] /. {Subscript[x1, 3, 4] -> 0};
+system1b[[3]] = system1b[[3]] /. {Subscript[x1, 3, 6] -> 1};
+system1b[[6]] = system1b[[6]] /. {Subscript[x1, 3, 6] -> 1};
+system1b[[5]] = system1b[[5]] /. {Subscript[x1, 5, 4] -> 0};
+system1b[[4]] = system1b[[4]] /. {Subscript[x1, 5, 4] -> 0};
+Subscript[\[Delta]1, 3, 
+  6] = {Subscript[x1, 3, 4] -> 0, Subscript[x1, 3, 6] -> 1, 
+   Subscript[x1, 5, 4] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system1b[[t[[i]]]], Subscript[x1, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system1b[[t[[i]]]], Subscript[x1, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system1b[[p[[t[[i]]]]]] = system1b[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]1, 3, 6] = 
+    Join[Subscript[\[Delta]1, 3, 6], \[Delta]];
+   }];
+system1c = system1;
+system1c[[3]] = system1c[[3]] /. {Subscript[x1, 3, 4] -> 0};
+system1c[[4]] = system1c[[4]] /. {Subscript[x1, 3, 4] -> 0};
+system1c[[3]] = system1c[[3]] /. {Subscript[x1, 3, 6] -> 0};
+system1c[[6]] = system1c[[6]] /. {Subscript[x1, 3, 6] -> 0};
+system1c[[5]] = system1c[[5]] /. {Subscript[x1, 5, 4] -> 1};
+system1c[[4]] = system1c[[4]] /. {Subscript[x1, 5, 4] -> 1};
+Subscript[\[Delta]1, 5, 
+  4] = {Subscript[x1, 3, 4] -> 0, Subscript[x1, 3, 6] -> 0, 
+   Subscript[x1, 5, 4] -> 1};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system1c[[t[[i]]]], Subscript[x1, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system1c[[t[[i]]]], Subscript[x1, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system1c[[p[[t[[i]]]]]] = system1c[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]1, 5, 4] = 
+    Join[Subscript[\[Delta]1, 5, 4], \[Delta]];
+   }];
+system2 = {
+    Subscript[x2, 1, 3] + Subscript[x2, 1, 4] + Subscript[x2, 1, 5] + 
+     Subscript[x2, 1, 6] == 0,
+   Subscript[x2, 2, 6] - Subscript[x2, 3, 2] == 0,
+   Subscript[x2, 3, 2] + Subscript[x2, 3, 4] - Subscript[x2, 1, 3] == 
+    0,
+   Subscript[x2, 4, 6] - Subscript[x2, 1, 4] - Subscript[x2, 3, 4] == 
+    0,
+   -Subscript[x2, 1, 5] == 0,
+   -Subscript[x2, 1, 6] - Subscript[x2, 2, 6] - Subscript[x2, 4, 6] ==
+     0};
+t = {4, 6, 5, 1, 3, 2};
+p = {3, 0 , 2, 6, 1, 2};
+d = {-1, 0, -1, -1, 1, 1 };
+system2a = system2;
+system2a[[1]] = system2a[[1]] /. {Subscript[x2, 1, 4] -> 1};
+system2a[[4]] = system2a[[4]] /. {Subscript[x2, 1, 4] -> 1};
+system2a[[1]] = system2a[[1]] /. {Subscript[x2, 1, 6] -> 0};
+system2a[[6]] = system2a[[6]] /. {Subscript[x2, 1, 6] -> 0};
+system2a[[3]] = system2a[[3]] /. {Subscript[x2, 3, 4] -> 0};
+system2a[[4]] = system2a[[4]] /. {Subscript[x2, 3, 4] -> 0};
+Subscript[\[Delta]2, 1, 
+  4] = {Subscript[x2, 1, 4] -> 1, Subscript[x2, 1, 6] -> 0, 
+   Subscript[x2, 3, 4] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system2a[[t[[i]]]], Subscript[x2, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system2a[[t[[i]]]], Subscript[x2, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system2a[[p[[t[[i]]]]]] = system2a[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]2, 1, 4] = 
+    Join[Subscript[\[Delta]2, 1, 4], \[Delta]];
+   }];
+system2b = system2;
+system2b[[1]] = system2b[[1]] /. {Subscript[x2, 1, 4] -> 0};
+system2b[[4]] = system2b[[4]] /. {Subscript[x2, 1, 4] -> 0};
+system2b[[1]] = system2b[[1]] /. {Subscript[x2, 1, 6] -> 1};
+system2b[[6]] = system2b[[6]] /. {Subscript[x2, 1, 6] -> 1};
+system2b[[3]] = system2b[[3]] /. {Subscript[x2, 3, 4] -> 0};
+system2b[[4]] = system2b[[4]] /. {Subscript[x2, 3, 4] -> 0};
+Subscript[\[Delta]2, 1, 
+  6] = {Subscript[x2, 1, 4] -> 0, Subscript[x2, 1, 6] -> 1, 
+   Subscript[x2, 3, 4] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system2b[[t[[i]]]], Subscript[x2, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system2b[[t[[i]]]], Subscript[x2, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system2b[[p[[t[[i]]]]]] = system2b[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]2, 1, 6] = 
+    Join[Subscript[\[Delta]2, 1, 6], \[Delta]];
+   }];
+system2c = system2;
+system2c[[1]] = system2c[[1]] /. {Subscript[x2, 1, 4] -> 0};
+system2c[[4]] = system2c[[4]] /. {Subscript[x2, 1, 4] -> 0};
+system2c[[1]] = system2c[[1]] /. {Subscript[x2, 1, 6] -> 0};
+system2c[[6]] = system2c[[6]] /. {Subscript[x2, 1, 6] -> 0};
+system2c[[3]] = system2c[[3]] /. {Subscript[x2, 3, 4] -> 1};
+system2c[[4]] = system2c[[4]] /. {Subscript[x2, 3, 4] -> 1};
+Subscript[\[Delta]2, 3, 
+  4] = {Subscript[x2, 1, 4] -> 0, Subscript[x2, 1, 6] -> 0, 
+   Subscript[x2, 3, 4] -> 1};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system2c[[t[[i]]]], Subscript[x2, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system2c[[t[[i]]]], Subscript[x2, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system2c[[p[[t[[i]]]]]] = system2c[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]2, 3, 4] = 
+    Join[Subscript[\[Delta]2, 3, 4], \[Delta]];
+   }];
+system3 = {
+    Subscript[x3, 1, 3] + Subscript[x3, 1, 5] - Subscript[x3, 2, 1] ==
+     0,
+   Subscript[x3, 2, 1] + Subscript[x3, 2, 6] - Subscript[x3, 5, 2] == 
+    0,
+   -Subscript[x3, 1, 3] == 0,
+   Subscript[x3, 4, 6] - Subscript[x3, 5, 4] == 0,
+   Subscript[x3, 5, 2] + Subscript[x3, 5, 4] - Subscript[x3, 1, 5] - 
+     Subscript[x3, 6, 5] == 0,
+   Subscript[x3, 6, 5] - Subscript[x3, 2, 6] - Subscript[x3, 4, 6] == 
+    0};
+t = {4, 3, 1, 5, 2, 6};
+p = {5, 6 , 1, 6, 2, 0};
+d = {-1, -1, 1, -1, -1, 0};
+system3a = system3;
+system3a[[2]] = system3a[[2]] /. {Subscript[x3, 2, 1] -> 1};
+system3a[[1]] = system3a[[1]] /. {Subscript[x3, 2, 1] -> 1};
+system3a[[5]] = system3a[[5]] /. {Subscript[x3, 5, 4] -> 0};
+system3a[[4]] = system3a[[4]] /. {Subscript[x3, 5, 4] -> 0};
+system3a[[6]] = system3a[[6]] /. {Subscript[x3, 6, 5] -> 0};
+system3a[[5]] = system3a[[5]] /. {Subscript[x3, 6, 5] -> 0};
+Subscript[\[Delta]3, 2, 
+  1] = {Subscript[x3, 2, 1] -> 1, Subscript[x3, 5, 4] -> 0, 
+   Subscript[x3, 6, 5]  -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system3a[[t[[i]]]], Subscript[x3, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system3a[[t[[i]]]], Subscript[x3, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system3a[[p[[t[[i]]]]]] = system3a[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]3, 2, 1] = 
+    Join[Subscript[\[Delta]3, 2, 1], \[Delta]];
+   }];
+system3b = system3;
+system3b[[2]] = system3b[[2]] /. {Subscript[x3, 2, 1] -> 0};
+system3b[[1]] = system3b[[1]] /. {Subscript[x3, 2, 1] -> 0};
+system3b[[5]] = system3b[[5]] /. {Subscript[x3, 5, 4] -> 1};
+system3b[[4]] = system3b[[4]] /. {Subscript[x3, 5, 4] -> 1};
+system3b[[6]] = system3b[[6]] /. {Subscript[x3, 6, 5] -> 0};
+system3b[[5]] = system3b[[5]] /. {Subscript[x3, 6, 5] -> 0};
+Subscript[\[Delta]3, 5, 
+  4] = {Subscript[x3, 2, 1] -> 0, Subscript[x3, 5, 4] -> 1, 
+   Subscript[x3, 6, 5] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system3b[[t[[i]]]], Subscript[x3, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system3b[[t[[i]]]], Subscript[x3, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system3b[[p[[t[[i]]]]]] = system3b[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]3, 5, 4] = 
+    Join[Subscript[\[Delta]3, 5, 4], \[Delta]];
+   }];
+system3c = system3;
+system3c[[2]] = system3c[[2]] /. {Subscript[x3, 2, 1] -> 0};
+system3c[[1]] = system3c[[1]] /. {Subscript[x3, 2, 1] -> 0};
+system3c[[5]] = system3c[[5]] /. {Subscript[x3, 5, 4] -> 0};
+system3c[[4]] = system3c[[4]] /. {Subscript[x3, 5, 4] -> 0};
+system3c[[6]] = system3c[[6]] /. {Subscript[x3, 6, 5] -> 1};
+system3c[[5]] = system3c[[5]] /. {Subscript[x3, 6, 5] -> 1};
+Subscript[\[Delta]3, 6, 
+  5] = {Subscript[x3, 2, 1] -> 0, Subscript[x3, 5, 4] -> 0, 
+   Subscript[x3, 6, 5]  -> 1};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system3c[[t[[i]]]], Subscript[x3, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system3c[[t[[i]]]], Subscript[x3, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system3c[[p[[t[[i]]]]]] = system3c[[p[[t[[i]]]]]] /. \[Delta]];
+   Subscript[\[Delta]3, 6, 5] = 
+    Join[Subscript[\[Delta]3, 6, 5], \[Delta]];
+   }];
+system1 = {
+   Subscript[x1, 1, 3] - Subscript[x1, 2, 1] == -2,
+   Subscript[x1, 2, 1] + Subscript[x1, 2, 6] == 9,
+   Subscript[x1, 3, 4] + Subscript[x1, 3, 6] - Subscript[x1, 1, 3] == 
+    9,
+   Subscript[x1, 4, 6] - Subscript[x1, 3, 4] - Subscript[x1, 5, 
+     4] == -2,
+   Subscript[x1, 5, 4] - Subscript[x1, 6, 5] == -2,
+   Subscript[x1, 6, 5] - Subscript[x1, 2, 6] - Subscript[x1, 3, 6] - 
+     Subscript[x1, 4, 6] == -12};
+t = {3, 1, 5, 4, 6, 2};
+p = {2, 0 , 1, 6, 6, 2};
+d = {1, 0, 1, -1, 1, 1 };
+system1a = system1;
+system1a[[3]] = system1a[[3]] /. {Subscript[x1, 3, 4] -> 0};
+system1a[[4]] = system1a[[4]] /. {Subscript[x1, 3, 4] -> 0};
+system1a[[3]] = system1a[[3]] /. {Subscript[x1, 3, 6] -> 0};
+system1a[[6]] = system1a[[6]] /. {Subscript[x1, 3, 6] -> 0};
+system1a[[5]] = system1a[[5]] /. {Subscript[x1, 5, 4] -> 0};
+system1a[[4]] = system1a[[4]] /. {Subscript[x1, 5, 4] -> 0};
+
+\!\(\*OverscriptBox["\[Delta]1", "_"]\) = {Subscript[x1, 3, 4] -> 0, 
+   Subscript[x1, 3, 6] -> 0, Subscript[x1, 5, 4] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system1a[[t[[i]]]], Subscript[x1, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system1a[[t[[i]]]], Subscript[x1, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system1a[[p[[t[[i]]]]]] = system1a[[p[[t[[i]]]]]] /. \[Delta]];
+   
+\!\(\*OverscriptBox["\[Delta]1", "_"]\) = Join[
+\!\(\*OverscriptBox["\[Delta]1", "_"]\), \[Delta]];
+   }];
+system2 = {Subscript[x2, 1, 3] + Subscript[x2, 1, 4] + Subscript[x2, 
+     1, 5] + Subscript[x2, 1, 6] == 15,
+   Subscript[x2, 2, 6] - Subscript[x2, 3, 2] == 0,
+   Subscript[x2, 3, 2] + Subscript[x2, 3, 4] - Subscript[x2, 1, 3] == 
+    4,
+   Subscript[x2, 4, 6] - Subscript[x2, 1, 4] - Subscript[x2, 3, 
+     4] == -7,
+   -Subscript[x2, 1, 5] == -2,
+   -Subscript[x2, 1, 6] - Subscript[x2, 2, 6] - Subscript[x2, 4, 
+     6] == -10};
+t = {4, 6, 5, 1, 3, 2};
+p = {3, 0 , 2, 6, 1, 2};
+d = {-1, 0, -1, -1, 1, 1 };
+system2a = system2;
+system2a[[1]] = system2a[[1]] /. {Subscript[x2, 1, 4] -> 0};
+system2a[[4]] = system2a[[4]] /. {Subscript[x2, 1, 4] -> 0};
+system2a[[1]] = system2a[[1]] /. {Subscript[x2, 1, 6] -> 0};
+system2a[[6]] = system2a[[6]] /. {Subscript[x2, 1, 6] -> 0};
+system2a[[3]] = system2a[[3]] /. {Subscript[x2, 3, 4] -> 0};
+system2a[[4]] = system2a[[4]] /. {Subscript[x2, 3, 4] -> 0};
+
+\!\(\*OverscriptBox["\[Delta]2", "_"]\) = {Subscript[x2, 1, 4] -> 0, 
+   Subscript[x2, 1, 6]  -> 0, Subscript[x2, 3, 4] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system2a[[t[[i]]]], Subscript[x2, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system2a[[t[[i]]]], Subscript[x2, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system2a[[p[[t[[i]]]]]] = system2a[[p[[t[[i]]]]]] /. \[Delta]];
+   
+\!\(\*OverscriptBox["\[Delta]2", "_"]\) = Join[
+\!\(\*OverscriptBox["\[Delta]2", "_"]\), \[Delta]];
+   }];
+system3 = {Subscript[x3, 1, 3] + Subscript[x3, 1, 5] - Subscript[x3, 
+     2, 1] == 11,
+   Subscript[x3, 2, 1] + Subscript[x3, 2, 6] - Subscript[x3, 5, 2] == 
+    0,
+   -Subscript[x3, 1, 3] == -4,
+   Subscript[x3, 4, 6] - Subscript[x3, 5, 4] == 5,
+   Subscript[x3, 5, 2] + Subscript[x3, 5, 4] - Subscript[x3, 1, 5] - 
+     Subscript[x3, 6, 5] == -4,
+   Subscript[x3, 6, 5] - Subscript[x3, 2, 6] - Subscript[x3, 4, 
+     6] == -8};
+t = {4, 3, 1, 5, 2, 6};
+p = {5, 6 , 1, 6, 2, 0};
+d = {-1, -1, 1, -1, -1, 0};
+system3a = system3;
+system3a[[2]] = system3a[[2]] /. {Subscript[x3, 2, 1] -> 0};
+system3a[[1]] = system3a[[1]] /. {Subscript[x3, 2, 1] -> 0};
+system3a[[5]] = system3a[[5]] /. {Subscript[x3, 5, 4] -> 0};
+system3a[[4]] = system3a[[4]] /. {Subscript[x3, 5, 4] -> 0};
+system3a[[6]] = system3a[[6]] /. {Subscript[x3, 6, 5] -> 0};
+system3a[[5]] = system3a[[5]] /. {Subscript[x3, 6, 5] -> 0};
+
+\!\(\*OverscriptBox["\[Delta]3", "_"]\) = {Subscript[x3, 2, 1] -> 0, 
+   Subscript[x3, 5, 4] -> 0, Subscript[x3, 6, 5] -> 0};
+For[i = 1, i <= n, ++i,
+  {
+   If[d[[t[[i]]]] == 1, 
+    \[Delta] = 
+     Solve[system3a[[t[[i]]]], Subscript[x3, p[[t[[i]]]], t[[i]]]][[
+      1]],
+    \[Delta] = 
+     Solve[system3a[[t[[i]]]], Subscript[x3, t[[i]], p[[t[[i]]]]]][[
+      1]]];
+   If[p[[p[[t[[i]]]]]] != 0,
+    system3a[[p[[t[[i]]]]]] = system3a[[p[[t[[i]]]]]] /. \[Delta]];
+   
+\!\(\*OverscriptBox["\[Delta]3", "_"]\) = Join[
+\!\(\*OverscriptBox["\[Delta]3", "_"]\), \[Delta]];
+   }];
+Subscript[R11, 3, 4] = 
+  2 Subscript[x1, 3, 4] + 3 Subscript[x1, 1, 3] + 
+    6 Subscript[x1, 2, 1] + 5 Subscript[x1, 2, 6] + 
+    4 Subscript[x1, 4, 6] + 7 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 4];
+Subscript[R21, 3, 4] = 
+  8 Subscript[x1, 3, 4] + 5 Subscript[x1, 1, 3] + 
+    5 Subscript[x1, 2, 1] + 4 Subscript[x1, 2, 6] + 
+    3 Subscript[x1, 4, 6] + 5 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 4];
+Subscript[R31, 3, 4] = 
+  7 Subscript[x1, 3, 4] + 0 Subscript[x1, 1, 3] + 
+    8 Subscript[x1, 2, 1] + 5 Subscript[x1, 2, 6] + 
+    7 Subscript[x1, 4, 6] + 2 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 4];
+Subscript[R41, 3, 4] = 
+  0 Subscript[x1, 3, 4] + 1 Subscript[x1, 1, 3] + 
+    0 Subscript[x1, 2, 1] + 0 Subscript[x1, 2, 6] + 
+    0 Subscript[x1, 4, 6] + 0 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 4];
+Subscript[R51, 3, 4] = 
+  0 Subscript[x1, 3, 4] + 0 Subscript[x1, 1, 3] + 
+    0 Subscript[x1, 2, 1] + 0 Subscript[x1, 2, 6] + 
+    0 Subscript[x1, 4, 6] + 0 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 4];
+
+Subscript[R11, 3, 6] = 
+  0 Subscript[x1, 3, 6] + 3 Subscript[x1, 1, 3] + 
+    6 Subscript[x1, 2, 1] + 5 Subscript[x1, 2, 6] + 
+    4 Subscript[x1, 4, 6] + 7 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 6];
+Subscript[R21, 3, 6] = 
+  1 Subscript[x1, 3, 6] + 5 Subscript[x1, 1, 3] + 
+    5 Subscript[x1, 2, 1] + 4 Subscript[x1, 2, 6] + 
+    3 Subscript[x1, 4, 6] + 5 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 6];
+Subscript[R31, 3, 6] = 
+  1 Subscript[x1, 3, 6] + 0 Subscript[x1, 1, 3] + 
+    8 Subscript[x1, 2, 1] + 5 Subscript[x1, 2, 6] + 
+    7 Subscript[x1, 4, 6] + 2 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 6];
+Subscript[R41, 3, 6] = 
+  0 Subscript[x1, 3, 6] + 1 Subscript[x1, 1, 3] + 
+    0 Subscript[x1, 2, 1] + 0 Subscript[x1, 2, 6] + 
+    0 Subscript[x1, 4, 6] + 0 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 6];
+Subscript[R51, 3, 6] = 
+  0 Subscript[x1, 3, 6] + 0 Subscript[x1, 1, 3] + 
+    0 Subscript[x1, 2, 1] + 0 Subscript[x1, 2, 6] + 
+    0 Subscript[x1, 4, 6] + 0 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 3, 6];
+
+Subscript[R11, 5, 4] = 
+  9 Subscript[x1, 5, 4] + 3 Subscript[x1, 1, 3] + 
+    6 Subscript[x1, 2, 1] + 5 Subscript[x1, 2, 6] + 
+    4 Subscript[x1, 4, 6] + 7 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 5, 4];
+Subscript[R21, 5, 4] = 
+  7 Subscript[x1, 5, 4] + 5 Subscript[x1, 1, 3] + 
+    5 Subscript[x1, 2, 1] + 4 Subscript[x1, 2, 6] + 
+    3 Subscript[x1, 4, 6] + 5 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 5, 4];
+Subscript[R31, 5, 4] = 
+  5 Subscript[x1, 5, 4] + 0 Subscript[x1, 1, 3] + 
+    8 Subscript[x1, 2, 1] + 5 Subscript[x1, 2, 6] + 
+    7 Subscript[x1, 4, 6] + 2 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 5, 4];
+Subscript[R41, 5, 4] = 
+  0 Subscript[x1, 5, 4] + 1 Subscript[x1, 1, 3] + 
+    0 Subscript[x1, 2, 1] + 0 Subscript[x1, 2, 6] + 
+    0 Subscript[x1, 4, 6] + 0 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 5, 4];
+Subscript[R51, 5, 4] = 
+  1 Subscript[x1, 5, 4] + 0 Subscript[x1, 1, 3] + 
+    0 Subscript[x1, 2, 1] + 0 Subscript[x1, 2, 6] + 
+    0 Subscript[x1, 4, 6] + 0 Subscript[x1, 6, 5] /. 
+   Subscript[\[Delta]1, 5, 4];
+
+Subscript[R12, 1, 4] = 
+  4 Subscript[x2, 1, 4] + 3 Subscript[x2, 1, 3] + 
+    9 Subscript[x2, 1, 5] + 5 Subscript[x2, 2, 6] + 
+    4 Subscript[x2, 3, 2] + 10 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 4];
+Subscript[R22, 1, 4] = 
+  6 Subscript[x2, 1, 4] + 6 Subscript[x2, 1, 3] + 
+    6 Subscript[x2, 1, 5] + 5 Subscript[x2, 2, 6] + 
+    5 Subscript[x2, 3, 2] + 5 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 4];
+Subscript[R32, 1, 4] = 
+  7 Subscript[x2, 1, 4] + 1 Subscript[x2, 1, 3] + 
+    7 Subscript[x2, 1, 5] + 10 Subscript[x2, 2, 6] + 
+    5 Subscript[x2, 3, 2] + 1 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 4];
+Subscript[R42, 1, 4] = 
+  0 Subscript[x2, 1, 4] + 1 Subscript[x2, 1, 3] + 
+    0 Subscript[x2, 1, 5] + 0 Subscript[x2, 2, 6] + 
+    0 Subscript[x2, 3, 2] + 0 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 4];
+Subscript[R52, 1, 4] = 
+  0 Subscript[x2, 1, 4] + 0 Subscript[x2, 1, 3] + 
+    0 Subscript[x2, 1, 5] + 0 Subscript[x2, 2, 6] + 
+    0 Subscript[x2, 3, 2] + 0 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 4];
+
+Subscript[R12, 1, 6] = 
+  0 Subscript[x2, 1, 6] + 3 Subscript[x2, 1, 3] + 
+    9 Subscript[x2, 1, 5] + 5 Subscript[x2, 2, 6] + 
+    4 Subscript[x2, 3, 2] + 10 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 6];
+Subscript[R22, 1, 6] = 
+  3 Subscript[x2, 1, 6] + 6 Subscript[x2, 1, 3] + 
+    6 Subscript[x2, 1, 5] + 5 Subscript[x2, 2, 6] + 
+    5 Subscript[x2, 3, 2] + 5 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 6];
+Subscript[R32, 1, 6] = 
+  6 Subscript[x2, 1, 6] + 1 Subscript[x2, 1, 3] + 
+    7 Subscript[x2, 1, 5] + 10 Subscript[x2, 2, 6] + 
+    5 Subscript[x2, 3, 2] + 1 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 6];
+Subscript[R42, 1, 6] = 
+  0 Subscript[x2, 1, 6] + 1 Subscript[x2, 1, 3] + 
+    0 Subscript[x2, 1, 5] + 0 Subscript[x2, 2, 6] + 
+    0 Subscript[x2, 3, 2] + 0 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 6];
+Subscript[R52, 1, 6] = 
+  0 Subscript[x2, 1, 6] + 0 Subscript[x2, 1, 3] + 
+    0 Subscript[x2, 1, 5] + 0 Subscript[x2, 2, 6] + 
+    0 Subscript[x2, 3, 2] + 0 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 1, 6];
+
+Subscript[R12, 3, 4] = 
+  5 Subscript[x2, 3, 4] + 3 Subscript[x2, 1, 3] + 
+    9 Subscript[x2, 1, 5] + 5 Subscript[x2, 2, 6] + 
+    4 Subscript[x2, 3, 2] + 10 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 3, 4];
+Subscript[R22, 3, 4] = 
+  10 Subscript[x2, 3, 4] + 6 Subscript[x2, 1, 3] + 
+    6 Subscript[x2, 1, 5] + 5 Subscript[x2, 2, 6] + 
+    5 Subscript[x2, 3, 2] + 5 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 3, 4];
+Subscript[R32, 3, 4] = 
+  3 Subscript[x2, 3, 4] + 1 Subscript[x2, 1, 3] + 
+    7 Subscript[x2, 1, 5] + 10 Subscript[x2, 2, 6] + 
+    5 Subscript[x2, 3, 2] + 1 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 3, 4];
+Subscript[R42, 3, 4] = 
+  0 Subscript[x2, 3, 4] + 1 Subscript[x2, 1, 3] + 
+    0 Subscript[x2, 1, 5] + 0 Subscript[x2, 2, 6] + 
+    0 Subscript[x2, 3, 2] + 0 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 3, 4];
+Subscript[R52, 3, 4] = 
+  0 Subscript[x2, 3, 4] + 0 Subscript[x2, 1, 3] + 
+    0 Subscript[x2, 1, 5] + 0 Subscript[x2, 2, 6] + 
+    0 Subscript[x2, 3, 2] + 0 Subscript[x2, 4, 6] /. 
+   Subscript[\[Delta]2, 3, 4];
+
+Subscript[R13, 2, 1] = 
+  1 Subscript[x3, 2, 1] + 4 Subscript[x3, 1, 3] + 
+    3 Subscript[x3, 1, 5] + 6 Subscript[x3, 2, 6] + 
+    2 Subscript[x3, 4, 6] + 2 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 2, 1];
+Subscript[R23, 2, 1] = 
+  3 Subscript[x3, 2, 1] + 1 Subscript[x3, 1, 3] + 
+    10 Subscript[x3, 1, 5] + 9 Subscript[x3, 2, 6] + 
+    9 Subscript[x3, 4, 6] + 7 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 2, 1];
+Subscript[R33, 2, 1] = 
+  10 Subscript[x3, 2, 1] + 1 Subscript[x3, 1, 3] + 
+    8 Subscript[x3, 1, 5] + 4 Subscript[x3, 2, 6] + 
+    1 Subscript[x3, 4, 6] + 9 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 2, 1];
+Subscript[R43, 2, 1] = 
+  0 Subscript[x3, 2, 1] + 1 Subscript[x3, 1, 3] + 
+    0 Subscript[x3, 1, 5] + 0 Subscript[x3, 2, 6] + 
+    0 Subscript[x3, 4, 6] + 0 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 2, 1];
+Subscript[R53, 2, 1] = 
+  0 Subscript[x3, 2, 1] + 0 Subscript[x3, 1, 3] + 
+    0 Subscript[x3, 1, 5] + 0 Subscript[x3, 2, 6] + 
+    0 Subscript[x3, 4, 6] + 0 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 2, 1];
+
+Subscript[R13, 5, 4] = 
+  5 Subscript[x3, 5, 4] + 4 Subscript[x3, 1, 3] + 
+    3 Subscript[x3, 1, 5] + 6 Subscript[x3, 2, 6] + 
+    2 Subscript[x3, 4, 6] + 2 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 5, 4];
+Subscript[R23, 5, 4] = 
+  2 Subscript[x3, 5, 4] + 1 Subscript[x3, 1, 3] + 
+    10 Subscript[x3, 1, 5] + 9 Subscript[x3, 2, 6] + 
+    9 Subscript[x3, 4, 6] + 7 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 5, 4];
+Subscript[R33, 5, 4] = 
+  7 Subscript[x3, 5, 4] + 1 Subscript[x3, 1, 3] + 
+    8 Subscript[x3, 1, 5] + 4 Subscript[x3, 2, 6] + 
+    1 Subscript[x3, 4, 6] + 9 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 5, 4];
+Subscript[R43, 5, 4] = 
+  0 Subscript[x3, 5, 4] + 1 Subscript[x3, 1, 3] + 
+    0 Subscript[x3, 1, 5] + 0 Subscript[x3, 2, 6] + 
+    0 Subscript[x3, 4, 6] + 0 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 5, 4];
+Subscript[R53, 5, 4] = 
+  1 Subscript[x3, 5, 4] + 0 Subscript[x3, 1, 3] + 
+    0 Subscript[x3, 1, 5] + 0 Subscript[x3, 2, 6] + 
+    0 Subscript[x3, 4, 6] + 0 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 5, 4];
+
+Subscript[R13, 6, 5] = 
+  8 Subscript[x3, 6, 5] + 4 Subscript[x3, 1, 3] + 
+    3 Subscript[x3, 1, 5] + 6 Subscript[x3, 2, 6] + 
+    2 Subscript[x3, 4, 6] + 2 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 6, 5];
+Subscript[R23, 6, 5] = 
+  5 Subscript[x3, 6, 5] + 1 Subscript[x3, 1, 3] + 
+    10 Subscript[x3, 1, 5] + 9 Subscript[x3, 2, 6] + 
+    9 Subscript[x3, 4, 6] + 7 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 6, 5];
+Subscript[R33, 6, 5] = 
+  2 Subscript[x3, 6, 5] + 1 Subscript[x3, 1, 3] + 
+    8 Subscript[x3, 1, 5] + 4 Subscript[x3, 2, 6] + 
+    1 Subscript[x3, 4, 6] + 9 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 6, 5];
+Subscript[R43, 6, 5] = 
+  0 Subscript[x3, 6, 5] + 1 Subscript[x3, 1, 3] + 
+    0 Subscript[x3, 1, 5] + 0 Subscript[x3, 2, 6] + 
+    0 Subscript[x3, 4, 6] + 0 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 6, 5];
+Subscript[R53, 6, 5] = 
+  0 Subscript[x3, 6, 5] + 0 Subscript[x3, 1, 3] + 
+    0 Subscript[x3, 1, 5] + 0 Subscript[x3, 2, 6] + 
+    0 Subscript[x3, 4, 6] + 0 Subscript[x3, 5, 2] /. 
+   Subscript[\[Delta]3, 6, 5];
+
+DD = ({
+    {Subscript[R11, 3, 6], Subscript[R11, 5, 4], Subscript[R12, 1, 4],
+      Subscript[R12, 1, 6], Subscript[R12, 3, 4]},
+    {Subscript[R21, 3, 6], Subscript[R21, 5, 4], Subscript[R22, 1, 4],
+      Subscript[R22, 1, 6], Subscript[R22, 3, 4]},
+    {Subscript[R31, 3, 6], Subscript[R31, 5, 4], Subscript[R32, 1, 4],
+      Subscript[R32, 1, 6], Subscript[R32, 3, 4]},
+    {Subscript[R41, 3, 6], Subscript[R41, 5, 4], Subscript[R42, 1, 4],
+      Subscript[R42, 1, 6], Subscript[R42, 3, 4]},
+    {Subscript[R51, 3, 6], Subscript[R51, 5, 4], Subscript[R52, 1, 4],
+      Subscript[R52, 1, 6], Subscript[R52, 3, 4]}
+   });
+
+Subscript[A, 1] = 
+  948 - (3 Subscript[x1, 1, 3] + 3 Subscript[x2, 1, 3] + 
+        4 Subscript[x3, 1, 3] + 4 Subscript[x2, 1, 4] + 
+        9 Subscript[x2, 1, 5] + 3 Subscript[x3, 1, 5] + 
+        6 Subscript[x1, 2, 1] + Subscript[x3, 2, 1] + 
+        5 Subscript[x1, 2, 6] + 5 Subscript[x2, 2, 6] + 
+        6 Subscript[x3, 2, 6] + 4 Subscript[x2, 3, 2] + 
+        2 Subscript[x1, 3, 4] + 5 Subscript[x2, 3, 4] + 
+        4 Subscript[x1, 4, 6] + 10 Subscript[x2, 4, 6] + 
+        2 Subscript[x3, 4, 6] + 2 Subscript[x3, 5, 2] + 
+        9 Subscript[x1, 5, 4] + 5 Subscript[x3, 5, 4] + 
+        7 Subscript[x1, 6, 5] + 8 Subscript[x3, 6, 5]) /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\);
+Subscript[A, 2] = 
+  631 - (5 Subscript[x1, 1, 3] + 6 Subscript[x2, 1, 3] + Subscript[x3,
+         1, 3] + 6 Subscript[x2, 1, 4] + 6 Subscript[x2, 1, 5] + 
+        10 Subscript[x3, 1, 5] + 3 Subscript[x2, 1, 6] + 
+        5 Subscript[x1, 2, 1] + 3 Subscript[x3, 2, 1] + 
+        4 Subscript[x1, 2, 6] + 5 Subscript[x2, 2, 6] + 
+        9 Subscript[x3, 2, 6] + 5 Subscript[x2, 3, 2] + 
+        8 Subscript[x1, 3, 4] + 10 Subscript[x2, 3, 4] + Subscript[x1,
+         3, 6] + 3 Subscript[x1, 4, 6] + 5 Subscript[x2, 4, 6] + 
+        9 Subscript[x3, 4, 6] + 7 Subscript[x3, 5, 2] + 
+        7 Subscript[x1, 5, 4] + 2 Subscript[x3, 5, 4] + 
+        5 Subscript[x1, 6, 5] + 5 Subscript[x3, 6, 5]) /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\);
+Subscript[A, 3] = 
+  590 - (Subscript[x2, 1, 3] + 2 Subscript[x3, 1, 3] + 
+        7 Subscript[x2, 1, 4] + 7 Subscript[x2, 1, 5] + 
+        8 Subscript[x3, 1, 5] + 6 Subscript[x2, 1, 6] + 
+        8 Subscript[x1, 2, 1] + 10 Subscript[x3, 2, 1] + 
+        5 Subscript[x1, 2, 6] + 10 Subscript[x2, 2, 6] + 
+        4 Subscript[x3, 2, 6] + 5 Subscript[x2, 3, 2] + 
+        7 Subscript[x1, 3, 4] + 3 Subscript[x2, 3, 4] + Subscript[x1, 
+        3, 6] + 7 Subscript[x1, 4, 6] + Subscript[x2, 4, 6] + 
+        Subscript[x3, 4, 6] + 9 Subscript[x3, 5, 2] + 
+        5 Subscript[x1, 5, 4] + 7 Subscript[x3, 5, 4] + 
+        2 Subscript[x1, 6, 5] + 2 Subscript[x3, 6, 5]) /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\);
+Subscript[A, 4] = 
+  10 - (Subscript[x1, 1, 3] + Subscript[x2, 1, 3] + Subscript[x3, 1, 
+        3]) /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\);
+Subscript[A, 5] = 7 - (Subscript[x1, 5, 4] + Subscript[x3, 5, 4]) /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\) /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\);
+
+Subscript[\[Beta], 1] = 
+  Subscript[A, 
+   1] - (Subscript[R11, 3, 4] Subscript[y1, 3, 4] + 
+     Subscript[R13, 2, 1] Subscript[y3, 2, 1] + 
+     Subscript[R13, 5, 4] Subscript[y3, 5, 4] + 
+     Subscript[R13, 6, 5] Subscript[y3, 6, 5]);
+Subscript[\[Beta], 2] = 
+  Subscript[A, 
+   2] - (Subscript[R21, 3, 4] Subscript[y1, 3, 4] + 
+     Subscript[R23, 2, 1] Subscript[y3, 2, 1] + 
+     Subscript[R23, 5, 4] Subscript[y3, 5, 4] + 
+     Subscript[R23, 6, 5] Subscript[y3, 6, 5]);
+Subscript[\[Beta], 3] = 
+  Subscript[A, 
+   3] - (Subscript[R31, 3, 4] Subscript[y1, 3, 4] + 
+     Subscript[R33, 2, 1] Subscript[y3, 2, 1] + 
+     Subscript[R33, 5, 4] Subscript[y3, 5, 4] + 
+     Subscript[R33, 6, 5] Subscript[y3, 6, 5]);
+Subscript[\[Beta], 4] = 
+  Subscript[A, 
+   4] - (Subscript[R41, 3, 4] Subscript[y1, 3, 4] + 
+     Subscript[R43, 2, 1] Subscript[y3, 2, 1] + 
+     Subscript[R43, 5, 4] Subscript[y3, 5, 4] + 
+     Subscript[R43, 6, 5] Subscript[y3, 6, 5]);
+Subscript[\[Beta], 5] = 
+  Subscript[A, 
+   5] - (Subscript[R51, 3, 4] Subscript[y1, 3, 4] + 
+     Subscript[R53, 2, 1] Subscript[y3, 2, 1] + 
+     Subscript[R53, 5, 4] Subscript[y3, 5, 4] + 
+     Subscript[R53, 6, 5] Subscript[y3, 6, 5]);
+Y = Simplify[Inverse[DD].({
+      {Subscript[\[Beta], 1]},
+      {Subscript[\[Beta], 2]},
+      {Subscript[\[Beta], 3]},
+      {Subscript[\[Beta], 4]},
+      {Subscript[\[Beta], 5]}
+     })];
+rule1 = {Subscript[x1, 3, 6] -> Y[[1]][[1]], 
+   Subscript[x1, 5, 4] -> Y[[2]][[1]], 
+   Subscript[x2, 1, 4] -> Y[[3]][[1]], 
+   Subscript[x2, 1, 6] -> Y[[4]][[1]], 
+   Subscript[x2, 3, 4] -> Y[[5]][[1]], 
+   Subscript[x1, 3, 4] -> Subscript[y1, 3, 4], 
+   Subscript[x3, 2, 1] -> Subscript[y3, 2, 1], 
+   Subscript[x3, 5, 4] -> Subscript[y3, 5, 4], 
+   Subscript[x3, 6, 5] -> Subscript[y3, 6, 5]};
+rule2 = {Subscript[x1, 1, 3] -> 
+    Subscript[x1, 3, 
+      4] (Subscript[x1, 1, 3] /. Subscript[\[Delta]1, 3, 4]) + 
+     Subscript[x1, 3, 
+      6] (Subscript[x1, 1, 3] /. Subscript[\[Delta]1, 3, 6]) + 
+     Subscript[x1, 5, 
+      4] (Subscript[x1, 1, 3] /. Subscript[\[Delta]1, 5, 
+        4]) + (Subscript[x1, 1, 3] /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\)), 
+   Subscript[x1, 2, 1] -> 
+    Subscript[x1, 3, 
+      4] (Subscript[x1, 2, 1] /. Subscript[\[Delta]1, 3, 4]) + 
+     Subscript[x1, 3, 
+      6] (Subscript[x1, 2, 1] /. Subscript[\[Delta]1, 3, 6]) + 
+     Subscript[x1, 5, 
+      4] (Subscript[x1, 2, 1] /. Subscript[\[Delta]1, 5, 
+        4]) + (Subscript[x1, 2, 1] /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\)), 
+   Subscript[x1, 2, 6] -> 
+    Subscript[x1, 3, 
+      4] (Subscript[x1, 2, 6] /. Subscript[\[Delta]1, 3, 4]) + 
+     Subscript[x1, 3, 
+      6] (Subscript[x1, 2, 6] /. Subscript[\[Delta]1, 3, 6]) + 
+     Subscript[x1, 5, 
+      4] (Subscript[x1, 2, 6] /. Subscript[\[Delta]1, 5, 
+        4]) + (Subscript[x1, 2, 6] /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\)), 
+   Subscript[x1, 4, 6] -> 
+    Subscript[x1, 3, 
+      4] (Subscript[x1, 4, 6] /. Subscript[\[Delta]1, 3, 4]) + 
+     Subscript[x1, 3, 
+      6] (Subscript[x1, 4, 6] /. Subscript[\[Delta]1, 3, 6]) + 
+     Subscript[x1, 5, 
+      4] (Subscript[x1, 4, 6] /. Subscript[\[Delta]1, 5, 
+        4]) + (Subscript[x1, 4, 6] /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\)), 
+   Subscript[x1, 6, 5] -> 
+    Subscript[x1, 3, 
+      4] (Subscript[x1, 6, 5] /. Subscript[\[Delta]1, 3, 4]) + 
+     Subscript[x1, 3, 
+      6] (Subscript[x1, 6, 5] /. Subscript[\[Delta]1, 3, 6]) + 
+     Subscript[x1, 5, 
+      4] (Subscript[x1, 6, 5] /. Subscript[\[Delta]1, 5, 
+        4]) + (Subscript[x1, 6, 5] /. 
+\!\(\*OverscriptBox["\[Delta]1", "_"]\)), 
+   Subscript[x2, 1, 3] -> 
+    Subscript[x2, 1, 
+      4] (Subscript[x2, 1, 3] /. Subscript[\[Delta]2, 1, 4]) + 
+     Subscript[x2, 1, 
+      6] (Subscript[x2, 1, 3] /. Subscript[\[Delta]2, 1, 6]) + 
+     Subscript[x2, 3, 
+      4] (Subscript[x2, 1, 3] /. Subscript[\[Delta]2, 3, 
+        4]) + (Subscript[x2, 1, 3] /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\)), 
+   Subscript[x2, 1, 5] -> 
+    Subscript[x2, 1, 
+      4] (Subscript[x2, 1, 5] /. Subscript[\[Delta]2, 1, 4]) + 
+     Subscript[x2, 1, 
+      6] (Subscript[x2, 1, 5] /. Subscript[\[Delta]2, 1, 6]) + 
+     Subscript[x2, 3, 
+      4] (Subscript[x2, 1, 5] /. Subscript[\[Delta]2, 3, 
+        4]) + (Subscript[x2, 1, 5] /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\)), 
+   Subscript[x2, 2, 6] -> 
+    Subscript[x2, 1, 
+      4] (Subscript[x2, 2, 6] /. Subscript[\[Delta]2, 1, 4]) + 
+     Subscript[x2, 1, 
+      6] (Subscript[x2, 2, 6] /. Subscript[\[Delta]2, 1, 6]) + 
+     Subscript[x2, 3, 
+      4] (Subscript[x2, 2, 6] /. Subscript[\[Delta]2, 3, 
+        4]) + (Subscript[x2, 2, 6] /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\)), 
+   Subscript[x2, 3, 2] -> 
+    Subscript[x2, 1, 
+      4] (Subscript[x2, 3, 2] /. Subscript[\[Delta]2, 1, 4]) + 
+     Subscript[x2, 1, 
+      6] (Subscript[x2, 3, 2] /. Subscript[\[Delta]2, 1, 6]) + 
+     Subscript[x2, 3, 
+      4] (Subscript[x2, 3, 2] /. Subscript[\[Delta]2, 3, 
+        4]) + (Subscript[x2, 3, 2] /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\)), 
+   Subscript[x2, 4, 6] -> 
+    Subscript[x2, 1, 
+      4] (Subscript[x2, 4, 6] /. Subscript[\[Delta]2, 1, 4]) + 
+     Subscript[x2, 1, 
+      6] (Subscript[x2, 4, 6] /. Subscript[\[Delta]2, 1, 6]) + 
+     Subscript[x2, 3, 
+      4] (Subscript[x2, 4, 6] /. Subscript[\[Delta]2, 3, 
+        4]) + (Subscript[x2, 4, 6] /. 
+\!\(\*OverscriptBox["\[Delta]2", "_"]\)), 
+   Subscript[x3, 1, 3] -> 
+    Subscript[x3, 2, 
+      1] (Subscript[x3, 1, 3] /. Subscript[\[Delta]3, 2, 1]) + 
+     Subscript[x3, 5, 
+      4] (Subscript[x3, 1, 3] /. Subscript[\[Delta]3, 5, 4]) + 
+     Subscript[x3, 6, 
+      5] (Subscript[x3, 1, 3] /. Subscript[\[Delta]3, 6, 
+        5]) + (Subscript[x3, 1, 3] /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\)), 
+   Subscript[x3, 1, 5] -> 
+    Subscript[x3, 2, 
+      1] (Subscript[x3, 1, 5] /. Subscript[\[Delta]3, 2, 1]) + 
+     Subscript[x3, 5, 
+      4] (Subscript[x3, 1, 5] /. Subscript[\[Delta]3, 5, 4]) + 
+     Subscript[x3, 6, 
+      5] (Subscript[x3, 1, 5] /. Subscript[\[Delta]3, 6, 
+        5]) + (Subscript[x3, 1, 5] /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\)), 
+   Subscript[x3, 2, 6] -> 
+    Subscript[x3, 2, 
+      1] (Subscript[x3, 2, 6] /. Subscript[\[Delta]3, 2, 1]) + 
+     Subscript[x3, 5, 
+      4] (Subscript[x3, 2, 6] /. Subscript[\[Delta]3, 5, 4]) + 
+     Subscript[x3, 6, 
+      5] (Subscript[x3, 2, 6] /. Subscript[\[Delta]3, 6, 
+        5]) + (Subscript[x3, 2, 6] /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\)), 
+   Subscript[x3, 4, 6] -> 
+    Subscript[x3, 2, 
+      1] (Subscript[x3, 4, 6] /. Subscript[\[Delta]3, 2, 1]) + 
+     Subscript[x3, 5, 
+      4] (Subscript[x3, 4, 6] /. Subscript[\[Delta]3, 5, 4]) + 
+     Subscript[x3, 6, 
+      5] (Subscript[x3, 4, 6] /. Subscript[\[Delta]3, 6, 
+        5]) + (Subscript[x3, 4, 6] /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\)), 
+   Subscript[x3, 5, 2] -> 
+    Subscript[x3, 2, 
+      1] (Subscript[x3, 5, 2] /. Subscript[\[Delta]3, 2, 1]) + 
+     Subscript[x3, 5, 
+      4] (Subscript[x3, 5, 2] /. Subscript[\[Delta]3, 5, 4]) + 
+     Subscript[x3, 6, 
+      5] (Subscript[x3, 5, 2] /. Subscript[\[Delta]3, 6, 
+        5]) + (Subscript[x3, 5, 2] /. 
+\!\(\*OverscriptBox["\[Delta]3", "_"]\))};
+solution = Simplify[Join[rule1, rule2 /. rule1]];
+TableForm[{Row[Subscript[\[Delta]1, 3, 4], ","],  
+  Row[Subscript[\[Delta]1, 3, 6], ","], 
+  Row[Subscript[\[Delta]1, 5, 4], ","], 
+  Row[Subscript[\[Delta]2, 1, 4] , ","],  
+  Row[Subscript[\[Delta]2, 1, 6], ","], 
+  Row[Subscript[\[Delta]2, 3, 4], ","], 
+  Row[Subscript[\[Delta]3, 2, 1], ","], 
+  Row[Subscript[\[Delta]3, 5, 4], ","], 
+  Row[Subscript[\[Delta]3, 6, 5], ","], Row[
+\!\(\*OverscriptBox["\[Delta]1", "_"]\), ","], Row[
+\!\(\*OverscriptBox["\[Delta]2", "_"]\), ","], Row[
+\!\(\*OverscriptBox["\[Delta]3", "_"]\), ","], 
+  Row[Simplify[system /. solution], ","], Column[solution]}, 
+ TableHeadings -> {{"\[Delta]1_[3,4]", "\[Delta]1_[3,6]", 
+    "\[Delta]1_[5,4]", "\[Delta]2_[1,4]", "\[Delta]2_[1,6]", 
+    "\[Delta]2_[3,4]", "\[Delta]3_[2,1]", "\[Delta]3_[5,4]", 
+    "\[Delta]3_[6,5]", "\[Delta]1_", "\[Delta]2_", "\[Delta]3_", 
+    "Simplify[system/.solution]:", "solution"}, None}, 
+ TableSpacing -> {5, 0}, TableAlignments -> {Left, Top}]
+
